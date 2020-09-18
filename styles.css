@@ -1,0 +1,119 @@
+/*
+  #056676
+  #5eaaa8
+  #a3d2ca
+  #e8ded2
+  #e456b3
+*/
+
+body{
+  background-color: #e8ded2;
+}
+
+hr{
+  border: groove #a3d2ca 2px;
+  border-style: groove none none;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 50%;
+}
+
+div.header{
+  margin-top: 4rem;
+}
+
+img.profileimg{
+  height: 180px;
+  width: 180px;
+  margin-left: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+h1{
+  color: #056676;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+}
+
+h4{
+  color: #056676;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.45rem;
+  text-align: center;
+}
+
+h5{
+  color: #5eaaa8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+p{
+  font-size: 0.96rem;
+}
+
+p.bio{
+  font-size: 1.1rem
+}
+
+div.profileinfo{
+  margin-top: 1rem;
+  padding: 0;
+}
+
+div.profileinfo p{
+  margin: 0;
+}
+
+ul{
+  padding: 1.5rem;
+}
+
+h5.skillfield{
+  color: black;
+  font-size: 1rem;
+}
+
+div.social a{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 12px;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.footer{
+  background-color: #5eaaa8;
+}
+
+div.social a.github:hover{
+  filter: invert(100%);
+  background-color: #cccccc;
+}
+
+div.social a.hackerrank:hover{
+  filter: invert(100%);
+  background-color: #e456b3;
+}
+
+div.social a.gmail:hover{
+  filter: invert(100%);
+  background-color: #2bb9c7;
+}
+
+div.social a.linkedin:hover{
+  filter: invert(100%);
+  background-color: #d68836;
+}
+
+div.social{
+  padding: 0;
+}
+
+
